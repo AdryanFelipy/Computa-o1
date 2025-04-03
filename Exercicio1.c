@@ -4,6 +4,8 @@ int main(){
 float peso, alt, taxa;
 int idade, codigo;
 
+printf("Digite o codigo:\n");
+scanf("%d", &codigo);
 
 scanf("%d", &codigo);
 scanf("%d %f %f", &idade, &peso, &alt);
